@@ -25,7 +25,7 @@ function HeaderMb(props) {
             className="bg-white br-8 shade p-2"
             id="basic-navbar-nav"
           >
-            <Nav className="me-auto text-left">
+            <Nav className="me-auto text-center">
               <Nav.Link
                 href="#Home"
                 className="text-dark font-weight-bold py-1"

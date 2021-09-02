@@ -11,19 +11,21 @@ function WhatweDo(props) {
       animateIn="animate__slideInLeft"
       animateOnce={true}
     >
-      <div class="services-bg pb-2">
+      <div class="services-bg pt-4 pb-5">
         <div class="row mx-auto" id="Services">
           <div class="col-12">
-            <p class="services-prt">OUR SERVICES</p>
-            <h3 class="ser-h">What we do</h3>
-            <p class="ser-para col-md-6 col-12 mx-auto">
-              Nullam vestibulum, justo vitae varius interdum, nibh turpis
-              eleifend tellus, sit amet porttitor orci erat vitae odio. Duis
-              sapien metus, egestas rhoncus metus id.
+            <p class="services-prt mb-0">OUR SERVICES</p>
+            <h4 class="font-weight-bold mb-0">What we do</h4>
+            <p class="mrkt-txt car-1-con-para row mx-auto mb-0 pt-3 pb-4 text-center">
+              <div className="col-md-6 col-10 mx-auto">
+                Nullam vestibulum, justo vitae varius interdum, nibh turpis
+                eleifend tellus, sit amet porttitor orci erat vitae odio. Duis
+                sapien metus, egestas rhoncus metus id.
+              </div>
             </p>
           </div>
           <div class="row px-3 mx-auto">
-            <div class="col-10 col-xl-9 d-xl-flex mx-auto">
+            <div class="col-10 col-xl-8 d-xl-flex mx-auto">
               <div class="card-consulting py-3 text-center col col-xl mx-auto px-2">
                 <div class="img-conslt mx-auto p-2 rounded-circle d-flex">
                   <img
@@ -33,8 +35,8 @@ function WhatweDo(props) {
                   />
                 </div>
                 <div class="mt-3">
-                  <h4>Incubation Consulting</h4>
-                  <p class="conslt-para px-md-3">
+                  <h6 className="font-weight-bold">Incubation Consulting</h6>
+                  <p class="mrkt-txt car-1-con-para px-md-3 px-xl-4 text-center mb-0">
                     With years of experience, the Hash21 management team ensures
                     proper consultation. We provide our customers with
                     incubation consulting services in order to support the
@@ -52,8 +54,8 @@ function WhatweDo(props) {
                   />
                 </div>
                 <div class="mt-3">
-                  <h4 class="h-vent">Venture Capital</h4>
-                  <p class="vent-para px-md-3">
+                  <h6 class="h-vent font-weight-bold">Venture Capital</h6>
+                  <p class="mrkt-txt car-1-con-para px-md-3 px-xl-4 text-center mb-0">
                     Our well-established and experienced management and
                     professional investment team enable Hash21 to focus on the
                     discovery of the best venture capital projects in the
@@ -70,8 +72,8 @@ function WhatweDo(props) {
                   />
                 </div>
                 <div class="mt-3">
-                  <h4>Technology Development</h4>
-                  <p class="tech-para px-md-3">
+                  <h6 className="font-weight-bold">Technology Development</h6>
+                  <p class="mrkt-txt car-1-con-para text-center px-md-3 px-xl-4 mb-0">
                     Hash21 is all about Blockchain technology and its
                     development. We have our bases in the field of Blockchain
                     technology services and supplying the best customized

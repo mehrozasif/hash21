@@ -66,10 +66,10 @@ function Portfolio(props) {
               <p className="col-10 col-xl-8 mx-auto porthash">HASH21</p>
               <h4 className="port-h col-10 col-xl-8 mx-auto">Portfolio</h4>
             </div>
-            <div className="row mx-auto mt-4">
+            <div className="row mx-auto mt-4 px-md-3 px-xl-5">
               {portfolioData.map((e) => (
                 <div className="col-6 col-md-4 col-lg-3 my-2">
-                  <div className="d-flex port-chain align-center justify-content-center">
+                  <div className="d-flex port-chain align-center justify-content-center py-lg-2">
                     <img src={portfolio} alt="Portfolio Chain" className="w-" />
                     <p className="my-2 px-2 h4 text-white mb-0 lh-1">
                       {e.name}
