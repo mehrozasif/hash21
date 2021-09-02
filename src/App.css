@@ -84,14 +84,14 @@ body {
   margin: 0 10px;
 }
 .side-container {
-  background-image: url("./assets/hash/circles.png");
+  background-image: url("./assets/hash/circles.svg");
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
   position: absolute;
   width: 52vw;
-  height: 82vh;
-  top: 11%;
+  height: 87vh;
+  top: 0%;
   left: -19%;
   opacity: 80%;
 }
