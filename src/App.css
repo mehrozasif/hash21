@@ -46,17 +46,21 @@ body {
   right: 0%;
   box-sizing: border-box;
 }
+.lh-custom {
+  line-height: 3;
+}
 #basic-navbar-nav {
   position: absolute;
   right: 0%;
   left: 0%;
-  width: 99%;
+  width: 100%;
   margin: auto;
+  background-color: #f6e3c1;
   z-index: 9999;
-  top: 72%;
+  top: 96%;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
-  box-shadow: 1px 1px 10px 4px #80808040;
+  box-shadow: 0px 6px 10px 4px #8080801a;
 }
 .nav-header {
   left: 12%;
@@ -294,6 +298,7 @@ body {
   border-radius: 20px;
   border: 0px;
   font-size: 14px;
+  font-weight: 700;
   color: white;
 }
 .btn-rdm-grd1 {
@@ -331,7 +336,7 @@ body {
 }
 .ply-btn-content {
   font-weight: 900;
-  font-size: 14px;
+  font-size: 15px;
 }
 .about-bg {
   background-image: url("./assets/hash/bg.svg");
@@ -342,11 +347,23 @@ body {
   /* top: 100%; */
   text-align: center;
 }
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 1px solid rgb(0 0 0 / 41%) !important;
+}
+.MuiInput-underline:after,
+.MuiFormLabel-root.Mui-focused {
+  border-color: #fa6b2c !important;
+  color: #fa6b2c !important;
+}
 .card-mrkt {
   border: 1px solid rgb(248, 247, 247);
   /* height: 15vh; */
   background-color: white;
   box-shadow: 0px 0px 20px 5px #c2c1c126;
+}
+.card-mrkt:hover {
+  background-color: #fa682c;
+  color: white;
 }
 .mrkt-txt {
   color: #756161;

@@ -33,14 +33,14 @@ function App() {
       <div className="App">
         <Router>
           <Switch>
-            <Route
+            {/* <Route
               exact
               path="/"
               render={() => {
-                return <Redirect to="/home" />;
+                return <Redirect to="/" />;
               }}
-            />
-            <Route path="/home" exact component={Home} />
+            /> */}
+            <Route path="/" exact component={Home} />
             <Route path="*" component={() => "404 NOT FOUND"} />
           </Switch>
         </Router>

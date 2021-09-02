@@ -11,7 +11,7 @@ function WhatweDo(props) {
       animateIn="animate__slideInLeft"
       animateOnce={true}
     >
-      <div class="services-bg pt-4 pb-5">
+      <div class="services-bg pt-4 pb-5 mb-md-5">
         <div class="row mx-auto" id="Services">
           <div class="col-12">
             <p class="services-prt mb-0">OUR SERVICES</p>

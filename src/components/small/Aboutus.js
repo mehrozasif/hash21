@@ -18,12 +18,12 @@ function Aboutus({ slider }) {
       animateIn="animate__slideInLeft"
       animateOnce={true}
     >
-      <div class="row mx-auto my-2">
+      <div class="row mx-auto my-5">
         <div class="about-bg">
-          <div className="row">
+          <div className="row mx-auto">
             <div className="col-xl-8 mx-auto">
               <div className="row mx-auto">
-                <div class="card-mrkt col-5 col-xl mx-auto mr-xl-2 p-3 my-3">
+                <div class="card-mrkt col-5 col-xl mx-auto mr-xl-2 p-3 my-3 zoom-in">
                   <div class="d-flex my-1 justify-content-between align-items-between text-left">
                     <p class="mb-0">$1,154,600</p>
                     <div>
@@ -40,7 +40,7 @@ function Aboutus({ slider }) {
                     <img src={rectangle} alt="Rounded Shape" />
                   </div>
                 </div>
-                <div class="card-mrkt col-5 col-xl mx-auto mr-xl-2 p-3 my-3">
+                <div class="card-mrkt col-5 col-xl mx-auto mr-xl-2 p-3 my-3 zoom-in">
                   <div class="d-flex my-1 justify-content-between align-items-between text-left">
                     <p class="mb-0">2,79,108</p>
                     <div>
@@ -57,7 +57,7 @@ function Aboutus({ slider }) {
                     <img src={green_line} alt="Rounded Shape" />
                   </div>
                 </div>
-                <div class="card-mrkt col-5 col-xl mx-auto mr-xl-2 p-3 my-3">
+                <div class="card-mrkt col-5 col-xl mx-auto mr-xl-2 p-3 my-3 zoom-in">
                   <div class="d-flex my-1 justify-content-between align-items-between text-left">
                     <p class="mb-0">$7,421,210</p>
                     <div>
@@ -74,7 +74,7 @@ function Aboutus({ slider }) {
                     <img src={green_line} alt="Rounded Shape" />
                   </div>
                 </div>
-                <div class="card-mrkt col-5 col-xl mx-auto mr-xl-2 p-3 my-3">
+                <div class="card-mrkt col-5 col-xl mx-auto mr-xl-2 p-3 my-3 zoom-in">
                   <div class="d-flex my-1 justify-content-between align-items-between text-left">
                     <p class="mb-0">0.0044559</p>
                     <div>
@@ -94,17 +94,14 @@ function Aboutus({ slider }) {
               </div>
             </div>
           </div>
-          <div
-            class="cards-about row mx-auto col-12 col-md-10 col-xl-8"
-            id="About Us"
-          >
-            <div className="col-12 col-md-10">
-              <div class="about-data row mx-auto mx-auto my-3">
+          <div class="cards-about row mx-auto" id="About Us">
+            <div className="col-12 col-md-10 col-xl-8 mx-auto">
+              <div class="about-data row mx-auto mx-auto my-md-5 my-2 py-lg-3">
                 <div class="about-img col-md col-12 d-md-block d-none">
-                  <img src={about} alt="About Image" class="col-12" />
+                  <img src={about} alt="About Image" class="col-12 pl-0" />
                 </div>
                 <div
-                  class="about-mtrl col-md col-12 about-us1 mb-3"
+                  class="about-mtrl col-md col-12 about-us1 m-auto"
                   id="about-us"
                 >
                   <h4>

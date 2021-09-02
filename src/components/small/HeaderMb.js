@@ -22,37 +22,37 @@ function HeaderMb(props) {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse
-            className="bg-white br-8 shade p-2"
+            className="br-8 shade p-2 py-4"
             id="basic-navbar-nav"
           >
             <Nav className="me-auto text-center">
               <Nav.Link
                 href="#Home"
-                className="text-dark font-weight-bold py-1"
+                className="text-dark font-weight-bold py-1 lh-custom"
               >
                 Home
               </Nav.Link>
               <Nav.Link
                 href="#About Us"
-                className="text-dark font-weight-bold py-1"
+                className="text-dark font-weight-bold py-1 lh-custom"
               >
                 About Us
               </Nav.Link>
               <Nav.Link
                 href="#Services"
-                className="text-dark font-weight-bold py-1"
+                className="text-dark font-weight-bold py-1 lh-custom"
               >
                 Services
               </Nav.Link>
               <Nav.Link
                 href="#Portfolio"
-                className="text-dark font-weight-bold py-1"
+                className="text-dark font-weight-bold py-1 lh-custom"
               >
                 Portfolio
               </Nav.Link>
               <Nav.Link
                 href="#Contact Us"
-                className="text-dark font-weight-bold py-1"
+                className="text-dark font-weight-bold py-1 lh-custom"
               >
                 Contact Us
               </Nav.Link>

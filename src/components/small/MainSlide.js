@@ -51,7 +51,7 @@ export default function MainSlide({ slider }) {
                 </div>
               </div>
               <div className="row mx-auto align-items-center mb-4 align-left btns-rdm-ply">
-                <div className="col-10 col-md-8 mx-auto d-flex align-items-center text-left">
+                <div className="col-12 col-md-8 mx-auto d-flex align-items-center text-left">
                   <button
                     className="btn-rdm-grd py-2 px-4 zoom-in"
                     onClick={more}
@@ -97,7 +97,7 @@ export default function MainSlide({ slider }) {
                 </div>
               </div>
               <div className="row mx-auto align-items-center mb-4 align-left btns-rdm-ply">
-                <div className="col-10 col-md-8 mx-auto d-flex align-items-center text-left">
+                <div className="col-12 col-md-8 mx-auto d-flex align-items-center text-left">
                   <button
                     className="btn-rdm-grd py-1 px-4"
                     onClick={more}
