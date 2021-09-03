@@ -97,7 +97,7 @@ body {
   height: 87vh;
   top: 0%;
   left: -19%;
-  opacity: 80%;
+  /* opacity: 80%; */
 }
 .navbar-toggler {
   height: 55px;
