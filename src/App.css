@@ -235,12 +235,12 @@ body {
 }
 .carousel-indicators li {
   background-color: rgba(100, 99, 99, 0.5) !important;
-  border: 3px solid rgba(100, 99, 99, 0.5);
+  border: 3px solid rgba(100, 99, 99, 0.5) !important;
   border-radius: 4px !important;
 }
 .carousel-indicators .active {
   background-color: #fd6704 !important;
-  border: 3px solid #fd6704;
+  border: 3px solid #fd6704 !important;
 }
 .carousel-1-content {
   text-align: left;

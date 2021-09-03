@@ -8,10 +8,15 @@ import about from "../../assets/hash//about.png";
 
 function Aboutus({ slider }) {
   const [changepara, setChangepara] = useState(false);
+  const [count, setCount] = useState(0);
+
   const more = () => {
     setChangepara(!changepara);
   };
-  console.log(changepara);
+
+  const handleClick = () => {
+    setCount(count + 1);
+  };
   return (
     <ScrollAnimation
       delay={500}
