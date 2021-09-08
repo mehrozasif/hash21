@@ -15,7 +15,7 @@ function Contactus(props) {
       <div class="row mx-auto px-md-3 px-xl-5 py-md-5 py-3">
         <div className="col-12 col-md-12 col-xl-9 mx-auto" id="Contact Us">
           <div className="row mx-auto">
-            <h4 class="font-weight-bold w-100">Get Quote</h4>
+            <h3 class="font-weight-bold w-100">Get Quote</h3>
             <p class="font-para text-center pt-0 col-md-6 mx-auto">
               As fellow entrepreneurs, we understand the need for space which
               gives your business room to breathe and grow.

@@ -109,9 +109,9 @@ function Aboutus({ slider }) {
                   class="about-mtrl col-md col-12 about-us1 m-auto"
                   id="about-us"
                 >
-                  <h4>
+                  <h3>
                     <b>About</b> <b class="about-hash">HASH21</b>
-                  </h4>
+                  </h3>
                   <p class="my-3 mrkt-txt car-1-con-para">
                     {changepara
                       ? "Hash21 is a perfect Blockchain-centric private company that provides its customers with embryonic crypto assets, smart money, and digital currency project…"

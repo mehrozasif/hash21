@@ -50,7 +50,7 @@ function Files(props) {
                   width="100px"
                   className=""
                 />
-                <h4 className="my-xl-4 my-2 text-dark">Enhance</h4>
+                <h3 className="my-xl-4 my-2 text-dark">Enhance</h3>
                 <p className="mb-xl-3 text-dark small">
                   Designed to help you enhance policies when existing policies
                   become ine ective.
@@ -63,7 +63,7 @@ function Files(props) {
                   width="100px"
                   className=""
                 />
-                <h4 className="my-xl-4 my-2 text-dark">Recommend</h4>
+                <h3 className="my-xl-4 my-2 text-dark">Recommend</h3>
                 <p className="mb-xl-3 text-dark small">
                   Designed to recommend new policies to your compliance team
                   using ethical AI.
@@ -78,7 +78,7 @@ function Files(props) {
                   width="100px"
                   className=""
                 />
-                <h4 className="my-xl-4 my-2 text-dark">Automate</h4>
+                <h3 className="my-xl-4 my-2 text-dark">Automate</h3>
                 <p className="mb-xl-3 text-dark small">
                   Designed to help you automate policy enforcement to control
                   the unseen, bad actors dynamically.
@@ -91,7 +91,7 @@ function Files(props) {
                   width="100px"
                   className=""
                 />
-                <h4 className="my-xl-4 my-2 text-dark">Trust</h4>
+                <h3 className="my-xl-4 my-2 text-dark">Trust</h3>
                 <p className="mb-xl-3 text-dark small">
                   Designed to help you build more trust and achieve better
                   business outcomes.
@@ -104,7 +104,7 @@ function Files(props) {
                   width="100px"
                   className=""
                 />
-                <h4 className="my-xl-4 my-2 text-dark">Safe Experience</h4>
+                <h3 className="my-xl-4 my-2 text-dark">Safe Experience</h3>
                 <p className="mb-xl-3 text-dark small">
                   Built for safer Digital Experiences.
                 </p>
@@ -118,7 +118,7 @@ function Files(props) {
                   width="100px"
                   className=""
                 />
-                <h4 className="my-xl-4 my-2 text-dark">Discover</h4>
+                <h3 className="my-xl-4 my-2 text-dark">Discover</h3>
                 <p className="mb-xl-3 text-dark small">
                   Launch party pitch technology user experience innovator buzz
                   stealth MVP model.
@@ -131,7 +131,7 @@ function Files(props) {
                   width="100px"
                   className=""
                 />
-                <h4 className="my-xl-4 my-2 text-dark">Digital User</h4>
+                <h3 className="my-xl-4 my-2 text-dark">Digital User</h3>
                 <p className="mb-xl-3 text-dark small">
                   Built for Digital Users everywhere.
                 </p>

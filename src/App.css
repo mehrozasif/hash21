@@ -84,7 +84,7 @@ body {
   left: -5.5%;
 }
 .navlink {
-  font-size: 13px;
+  font-size: 15px;
   margin: 0 10px;
 }
 .side-container {
@@ -252,7 +252,7 @@ body {
   color: #fc7d0d;
   /* padding-bottom: ;   */
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 15px;
 }
 .opc-low {
   opacity: 0.7;
@@ -265,22 +265,23 @@ body {
   font-family: arial, sans-serif;
 }
 .font-para {
-  font-size: 12.5px;
+  font-size: 16px;
   color: #756161;
 }
 .car-1-con-para {
   /* line-height: 20px; */
   padding-top: 2%;
-  font-size: 12.5px;
+  font-size: 16px;
   left: -3%;
   color: #0006197d;
   opacity: 0.7;
   text-align: justify;
+  line-height: 1.2;
 }
 .car-1-con-para-detail {
   /* line-height: 20px; */
   padding-top: 2%;
-  font-size: 14px;
+  font-size: 16px;
   display: none;
   left: -3%;
   text-align: justify;
@@ -297,7 +298,7 @@ body {
   background-image: linear-gradient(to left, rgb(253, 99, 9), rgb(253, 147, 9));
   border-radius: 20px;
   border: 0px;
-  font-size: 14px;
+  font-size: 0.8rem;
   font-weight: 700;
   color: white;
 }
@@ -335,7 +336,7 @@ body {
   left: 5%;
 }
 .ply-btn-content {
-  font-weight: 900;
+  font-weight: 800;
   font-size: 15px;
 }
 .about-bg {
@@ -418,17 +419,17 @@ body {
   color: #ff6600;
 }
 .about-us1 {
-  font-size: 14px;
+  font-size: 16px;
   color: black;
 }
 .about-us2 {
-  font-size: 14px;
+  font-size: 16px;
   color: black;
   display: none;
 }
 .services-prt {
   color: #ff6600;
-  font-size: 14px;
+  font-size: 140px;
 }
 .ser-h {
   font-weight: bold;

@@ -60,13 +60,15 @@ function Portfolio(props) {
       animateOnce={true}
     >
       <div className="portfolio-bg w-auto">
-        <div className="mx-auto row py-4" id="Portfolio">
+        <div className="mx-auto row py-5 my-lg-5" id="Portfolio">
           <div className="col-12 col-xl-8 mx-auto px-0">
-            <div className="">
-              <p className="col-10 col-xl-8 mx-auto porthash">HASH21</p>
-              <h4 className="port-h col-10 col-xl-8 mx-auto">Portfolio</h4>
+            <div className="pt-md-2">
+              <p className="col-10 col-xl-8 mx-auto text-white mb-0">HASH21</p>
+              <h3 className="mb-0 text-white col-10 col-xl-8 mx-auto">
+                Portfolio
+              </h3>
             </div>
-            <div className="row mx-auto mt-4 px-md-3 px-xl-5">
+            <div className="row mx-auto mt-4 px-md-3 px-xl-5 py-md-2">
               {portfolioData.map((e) => (
                 <div className="col-6 col-md-4 col-lg-3 my-2">
                   <div className="d-flex port-chain align-center justify-content-center py-lg-2">

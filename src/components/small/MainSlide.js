@@ -49,19 +49,21 @@ export default function MainSlide({ slider }) {
             </div>
             <div className="row mx-auto align-items-center mb-4 align-left btns-rdm-ply">
               <div className="col-12 col-md-8 mx-auto d-flex align-items-center text-left">
-                <button
-                  className="btn-rdm-grd py-2 px-4 zoom-in"
-                  onClick={more}
-                  id="parachange"
-                >
-                  {changepara ? "Read More" : "Read Less"}
-                </button>
-                <div className="pl-3">
-                  <button className="btn-bg-l d-flex p-0 zoom-in">
-                    <i className="fas fa-play p-4 text-white"></i>
+                <div className="d-flex align-items-center">
+                  <button
+                    className="btn-rdm-grd py-1 px-4"
+                    onClick={more}
+                    id="parachange"
+                  >
+                    {changepara ? "Read More" : "Read Less"}
                   </button>
+                  <div className="pl-3">
+                    <button className="btn-bg-l d-flex p-0 h-auto">
+                      <i className="fas fa-play p-4 text-white"></i>
+                    </button>
+                  </div>
+                  <p className="my-0 pl-3 ply-btn-content">Watch Video</p>
                 </div>
-                <p className="my-0 pl-2 ply-btn-content">Watch Video</p>
               </div>
             </div>
           </Carousel.Item>
@@ -91,19 +93,21 @@ export default function MainSlide({ slider }) {
             </div>
             <div className="row mx-auto align-items-center mb-4 align-left btns-rdm-ply">
               <div className="col-12 col-md-8 mx-auto d-flex align-items-center text-left">
-                <button
-                  className="btn-rdm-grd py-1 px-4"
-                  onClick={more}
-                  id="parachange"
-                >
-                  {changepara ? "Read More" : "Read Less"}
-                </button>
-                <div className="pl-3">
-                  <button className="btn-bg-l d-flex p-0">
-                    <i className="fas fa-play p-4 text-white"></i>
+                <div className="d-flex align-items-center">
+                  <button
+                    className="btn-rdm-grd py-1 px-4"
+                    onClick={more}
+                    id="parachange"
+                  >
+                    {changepara ? "Read More" : "Read Less"}
                   </button>
+                  <div className="pl-3">
+                    <button className="btn-bg-l d-flex p-0 h-auto">
+                      <i className="fas fa-play p-4 text-white"></i>
+                    </button>
+                  </div>
+                  <p className="my-0 pl-3 ply-btn-content">Watch Video</p>
                 </div>
-                <p className="my-0 pl-2 ply-btn-content">Watch Video</p>
               </div>
             </div>
           </Carousel.Item>
@@ -133,19 +137,21 @@ export default function MainSlide({ slider }) {
             </div>
             <div className="row mx-auto align-items-center mb-4 align-left btns-rdm-ply">
               <div className="col-12 col-md-8 mx-auto d-flex align-items-center text-left">
-                <button
-                  className="btn-rdm-grd py-1 px-4"
-                  onClick={more}
-                  id="parachange"
-                >
-                  {changepara ? "Read More" : "Read Less"}
-                </button>
-                <div className="pl-3">
-                  <button className="btn-bg-l d-flex p-0">
-                    <i className="fas fa-play p-4 text-white"></i>
+                <div className="d-flex align-items-center">
+                  <button
+                    className="btn-rdm-grd py-1 px-4"
+                    onClick={more}
+                    id="parachange"
+                  >
+                    {changepara ? "Read More" : "Read Less"}
                   </button>
+                  <div className="pl-3">
+                    <button className="btn-bg-l d-flex p-0 h-auto">
+                      <i className="fas fa-play p-4 text-white"></i>
+                    </button>
+                  </div>
+                  <p className="my-0 pl-3 ply-btn-content">Watch Video</p>
                 </div>
-                <p className="my-0 pl-2 ply-btn-content">Watch Video</p>
               </div>
             </div>
           </Carousel.Item>

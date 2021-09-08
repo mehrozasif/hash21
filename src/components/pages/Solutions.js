@@ -241,17 +241,17 @@ class Solutions extends Component {
               animateOnce={true}
             >
               <div className="row bg-white p-lg-3 shade p-2 br-15 text-center m-auto">
-                <h4 className="text-sm-resp my-xl-4 w-100 my-2 text-dark">
+                <h3 className="text-sm-resp my-xl-4 w-100 my-2 text-dark">
                   Proof of Governance
-                </h4>
+                </h3>
                 <div className="col-xl-3 col-4">
                   <div className="row h-100">
-                    <h4 className="text-sm-resp mt-auto text-dark text-left col-12">
+                    <h3 className="text-sm-resp mt-auto text-dark text-left col-12">
                       Policy Implimentation
-                    </h4>
-                    <h4 className="text-sm-resp h-25 mt-auto text-dark text-left col-12">
+                    </h3>
+                    <h3 className="text-sm-resp h-25 mt-auto text-dark text-left col-12">
                       Policy Discovery
-                    </h4>
+                    </h3>
                   </div>
                 </div>
                 <div className="col">
@@ -259,12 +259,12 @@ class Solutions extends Component {
                 </div>
                 <div className="col-xl-3 col-4">
                   <div className="row h-100">
-                    <h4 className="text-sm-resp mt-auto text-dark text-left col-12">
+                    <h3 className="text-sm-resp mt-auto text-dark text-left col-12">
                       Policy Enhancement
-                    </h4>
-                    <h4 className="text-sm-resp h-25 mt-auto text-dark text-left col-12">
+                    </h3>
+                    <h3 className="text-sm-resp h-25 mt-auto text-dark text-left col-12">
                       Policy Recommendation
-                    </h4>
+                    </h3>
                   </div>
                 </div>
               </div>

@@ -15,7 +15,7 @@ function WhatweDo(props) {
         <div class="row mx-auto" id="Services">
           <div class="col-12">
             <p class="services-prt mb-0">OUR SERVICES</p>
-            <h4 class="font-weight-bold mb-0">What we do</h4>
+            <h3 class="font-weight-bold mb-0">What we do</h3>
             <p class="mrkt-txt car-1-con-para row mx-auto mb-0 pt-3 pb-4 text-center">
               <div className="col-md-6 col-10 mx-auto">
                 Nullam vestibulum, justo vitae varius interdum, nibh turpis
